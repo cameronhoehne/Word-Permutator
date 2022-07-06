@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Permutation Generator</title>
+</head>
+<body>
+    
+
+
+<header id="header">
+
+<h1>Word Permutator</h1>
+<p id="introp">Generate all combinations of your words</p>
+<p id="introp2">Note: Input only accepts up to five words (no duplicates)</p>
+
+
+
+</header>
+<div class="container">
+
+    <input id="input" type="text" placeholder="Write your words here">
+
+    <button id="btn">GENERATE</button>
+    <button id="show-after-generate">REFRESH</button>
+    <p id="show-on-generate">Scroll for results</p>
+</div>
+
+<div class="popup" id="popup">
+    <div class="popup-container">
+        <h2 id="title">ERROR:</h2>
+        <p id="popP"></p>
+        <button data-close-popup id="close-popup">OK</button>
+    </div>
+</div>
+
+<div id="results">
+</div>
+
+<div id="overlay"></div>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
