@@ -78,7 +78,7 @@ function permutations(elements) {
 
   permsWithoutFirst.forEach(function(perm) { //This basically takes the first element and inserts that
                       //into every possible spot in the given array, resulting in our factorial output
-    for (let i = 0; i <= perm.length; i++) { //Great video where I did this "codealong" for the permutator = https://youtu.be/us0cYQXQpxg
+    for (let i = 0; i <= perm.length; i++) {
       const permWithFirst = [...perm.slice(0, i), firstEl, ...perm.slice(i)];
       allPermutations.push(permWithFirst);
     }
